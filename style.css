@@ -1,0 +1,37 @@
+/* Main Title (<h1>) styling */
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 30px;
+    color: #000033;
+    font-weight: bold;
+  }
+  
+  /* Category titles styling using a class selector */
+  .category {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    color: #004d99;
+    font-weight: bold;
+    /* Optional: add spacing or separation for visual clarity */
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  
+  /* Top company highlighting using ID selectors (one per section) */
+  #top-tech {
+    background-color: #e6f2ff;
+    color: #000080;
+    font-weight: bold;
+  }
+  
+  #top-auto {
+    background-color: #fff0e6;
+    color: #b30000;
+    font-weight: bold;
+  }
+  
+  #top-ecom {
+    background-color: #f0fff0;
+    color: #004d00;
+    font-weight: bold;
+  }
